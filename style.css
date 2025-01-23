@@ -1,0 +1,71 @@
+body {
+	background-image: url('bg.png');
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-size: cover;
+	font-family: "Segoe UI", Arial, sans-serif;
+	color: #000000;
+	padding: 20px;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	border: 5px outset #8affef;
+	padding: 10px;
+	background-color: #ffffff;
+	box-shadow: 0 0 50px 15px #8affef
+}
+
+header {
+	text-align: center;
+	background-color: #fffff;
+	padding: 5px;
+	border: 5px outset #ffffff;
+	box-shadow: 0 0 10px 10px #8affef;
+	font-family: Segoe Script, Cursive, Times New Roman;
+}
+
+header a {
+
+	color: black;
+}
+
+main h2 {
+	text-align: center;
+	font-size: 2.5em;
+	color: #00e8c8;
+	font-family: Arial Black;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none
+	padding: 0;
+	background-color: #ffffff;
+	margin: 10px 0;
+	border: 5px outset #ffffff;
+	box-shadow: 0 0 10px 10px #8affef;
+	color: #8affef;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+    color: #000000;
+}
+
+main {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 0.9em;
+	color: #00a68f;
+	margin-top:20px;
+}
